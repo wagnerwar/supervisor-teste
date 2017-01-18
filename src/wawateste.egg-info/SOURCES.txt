@@ -1,0 +1,7 @@
+setup.py
+teste/__init__.py
+wawateste.egg-info/PKG-INFO
+wawateste.egg-info/SOURCES.txt
+wawateste.egg-info/dependency_links.txt
+wawateste.egg-info/not-zip-safe
+wawateste.egg-info/top_level.txt

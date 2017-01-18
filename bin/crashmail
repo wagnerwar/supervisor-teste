@@ -1,0 +1,15 @@
+#!/home/prodam/wawa/bin/python
+
+import sys
+sys.path[0:0] = [
+    '/home/prodam/wawa/testes/eggs/superlance-1.0.0-py2.7.egg',
+    '/home/prodam/wawa/testes/eggs/supervisor-3.3.1-py2.7.egg',
+    '/home/prodam/wawa/testes/eggs/setuptools-33.1.1-py2.7.egg',
+    '/home/prodam/wawa/testes/eggs/meld3-1.0.2-py2.7.egg',
+    ]
+
+
+import superlance.crashmail
+
+if __name__ == '__main__':
+    sys.exit(superlance.crashmail.main())
