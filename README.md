@@ -8,7 +8,7 @@ Crie o arquivo opcoes.cfg e adicione as seguintes linhas:
 [buildout]
 extends = buildout.cfg
 
-[opcoes]
+**[opcoes]
 dir-base = # Diretório onde está o repositório
 dir-python = # Diretório do executável do PYTHON
 dir-web = # Localização do script que executa o serviço WEB
