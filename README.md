@@ -37,3 +37,10 @@ bin/supervisorctl start all -- Inicializa os processos do supervisor
 bin/supervisorctl restart all -- Reinicializa os processos do supervisor
 
 bin/supervisorctl stop all -- Para os processos do supervisor
+
+# Para parar o processo supervisord
+
+ps- ewf | grep 'supervisord'  -- Este comando lista os processos que estão sendo executados relativos ao programa supervisord
+
+kill ID_PROCESSO -- Este comando para o 'supvervisord' 
+
