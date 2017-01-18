@@ -5,7 +5,9 @@ Aprendendo a interagir com o programa supervisord e supervisorctl
 python bootstrap.py -- Gera o executável do buildout
 
 Crie o arquivo opcoes.cfg e adicione as seguintes linhas:
+
 [buildout]
+
 extends = buildout.cfg
 
 [opcoes]
