@@ -4,6 +4,22 @@ Aprendendo a interagir com o programa supervisord e supervisorctl
 # Comandos para instalação
 python bootstrap.py -- Gera o executável do buildout
 
+Crie o arquivo opcoes.cfg e adicione as seguintes linhas:
+[buildout]
+extends = buildout.cfg
+
+[opcoes]
+
+
+dir-base = # Diretório onde está o repositório
+
+
+dir-python = # Diretório do executável do PYTHON
+
+
+dir-web = # Localização do script que executa o serviço WEB
+
+
 bin/buildout -- Instala os pacotes e dependências configuradas no arquivo buildout.cfg
 
 bin/supervisord -- Inicializa o serviço supervisorctl
