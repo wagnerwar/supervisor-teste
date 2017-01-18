@@ -1,13 +1,13 @@
 # supervisor-teste
 Aprendendo a interagir com o programa supervisord e supervisorctl
 
-Comandos para instalação
+# Comandos para instalação
 python bootstrap.py -- Gera o executável do buildout
 bin/buildout -- Instala os pacotes e dependências configuradas no arquivo buildout.cfg
 bin/supervisord -- Inicializa o serviço supervisorctl
  
  
-Comandos úteis
+# Comandos úteis
 tail -f var/log/supervisord.log -- Para acompanhar os logs do serviço supervisorctl
  
 bin/supervisorctl status all --Lista o status dos processos do supervisor
