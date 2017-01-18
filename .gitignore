@@ -4,3 +4,4 @@ parts/
 develop-eggs/
 var/
 .installed.cfg
+opcoes.cfg
