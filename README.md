@@ -9,14 +9,8 @@ Crie o arquivo opcoes.cfg e adicione as seguintes linhas:
 extends = buildout.cfg
 
 [opcoes]
-
-
 dir-base = # Diretório onde está o repositório
-
-
 dir-python = # Diretório do executável do PYTHON
-
-
 dir-web = # Localização do script que executa o serviço WEB
 
 
@@ -37,6 +31,3 @@ bin/supervisorctl start all -- Inicializa os processos do supervisor
 bin/supervisorctl restart all -- Reinicializa os processos do supervisor
 
 bin/supervisorctl stop all -- Para os processos do supervisor
-
-
-
