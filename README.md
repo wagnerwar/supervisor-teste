@@ -20,6 +20,7 @@ dir-python = # Diretório do executável do PYTHON
 dir-web = # Localização do script que executa o serviço WEB
 
 
+
 bin/buildout -- Instala os pacotes e dependências configuradas no arquivo buildout.cfg
 
 bin/supervisord -- Inicializa o serviço supervisorctl
