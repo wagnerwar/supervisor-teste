@@ -21,7 +21,7 @@ dir-web = # Localização do script que executa o serviço WEB
 
 
 
-bin/buildout -- Instala os pacotes e dependências configuradas no arquivo buildout.cfg
+bin/buildout -c opcoes.cfg -- Instala os pacotes e dependências configuradas no arquivo buildout.cfg
 
 bin/supervisord -- Inicializa o serviço supervisorctl
  
