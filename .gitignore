@@ -1,1 +1,6 @@
 eggs/
+bin/ 
+parts/ 
+develop-eggs/ 
+var/
+.installed.cfg
